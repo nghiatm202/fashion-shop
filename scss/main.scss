@@ -1,0 +1,73 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+/* Variables */
+$primary-color: #ff5e3a;
+$default-color: #4f5665;
+$black: #000;
+$grey: #f0f0f0;
+$white: #fff;
+$pink: #ffcce0;
+$blue: #1a1aff;
+$custom: #1a1aff;
+$color: #4d4d4d;
+$light-blue: #ccccff;
+$box-shadow-1: 0 5px 15px rgba(0, 0, 0, 0.1);
+$box-shadow-2: 0 5px 15px rgba(255, 94, 58, 0.2);
+$gradient: linear-gradient(to bottom, #fccb90, #ff9a9e);
+$btn-gradient: linear-gradient(to bottom, #ff5151 50%, #ff5e3a);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: $white;
+  font-family: 'Roboto', sans-serif;
+  color: $black;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $black;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+section {
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 3rem;
+}
+
+h1 {
+  color: red;
+}
